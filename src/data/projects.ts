@@ -19,6 +19,13 @@ export const projects: Project[] = [
       "A showcase of an n8n workflow and procurement request processing. Implementation status and further project details are to be confirmed.",
     contribution: "",
     tools: ["n8n"],
+    visuals: [
+      {
+        src: "/images/projects/procurement-automation.svg",
+        alt: "Illustrative procurement automation concept showing connected process stages; not an actual workflow screenshot.",
+        kind: "illustration",
+      },
+    ],
   },
   {
     slug: "procurement-monitoring-dashboard",
@@ -31,6 +38,13 @@ export const projects: Project[] = [
       "An operational monitoring interface with CMA branding. Screenshots, data sources, and implementation status are to be confirmed.",
     contribution: "",
     tools: [],
+    visuals: [
+      {
+        src: "/images/projects/procurement-monitoring.svg",
+        alt: "Illustrative procurement monitoring dashboard concept; not an actual interface or operational data.",
+        kind: "illustration",
+      },
+    ],
   },
   {
     slug: "digital-cooperative-system",
@@ -43,6 +57,13 @@ export const projects: Project[] = [
       "A digital cooperative system theme focused on paperless administration and PDF and Excel exports. The scope and implementation status are to be confirmed.",
     contribution: "",
     tools: [],
+    visuals: [
+      {
+        src: "/images/projects/digital-cooperative.svg",
+        alt: "Illustrative digital cooperative records concept for member administration; not an actual product screenshot.",
+        kind: "illustration",
+      },
+    ],
   },
   {
     slug: "dompetkuff-personal-finance-app",
@@ -54,6 +75,13 @@ export const projects: Project[] = [
       "A personal finance application concept. Product scope, prototype details, and implementation status are to be confirmed.",
     contribution: "",
     tools: [],
+    visuals: [
+      {
+        src: "/images/projects/dompetkuff.svg",
+        alt: "Illustrative personal finance app concept with abstract savings and expense visuals; not an actual app screenshot.",
+        kind: "illustration",
+      },
+    ],
   },
   {
     slug: "industrial-waste-processing",
@@ -66,6 +94,13 @@ export const projects: Project[] = [
       "Engineering experiments involving blood meal production and moisture reduction. Experimental scope and results are to be confirmed before publication.",
     contribution: "",
     tools: [],
+    visuals: [
+      {
+        src: "/images/projects/industrial-waste-processing.svg",
+        alt: "Illustrative industrial material processing concept; not a photograph of equipment or experimental results.",
+        kind: "illustration",
+      },
+    ],
   },
   {
     slug: "industrial-facility-equipment-design",
@@ -78,5 +113,12 @@ export const projects: Project[] = [
       "Industrial facility and equipment design themes covering layouts, tank concepts, production planning, and technical drawings. Project status and contribution details are to be confirmed.",
     contribution: "",
     tools: [],
+    visuals: [
+      {
+        src: "/images/projects/facility-equipment-design.svg",
+        alt: "Illustrative industrial facility and equipment planning drawing; not an original CAD drawing or project plan.",
+        kind: "illustration",
+      },
+    ],
   },
 ];

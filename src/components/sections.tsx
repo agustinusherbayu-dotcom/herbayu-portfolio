@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
@@ -8,6 +9,7 @@ import { profile } from "@/data/profile";
 import { labEntries } from "@/data/lab";
 import { projectCategories, projects } from "@/data/projects";
 import { skillGroups } from "@/data/skills";
+import { ProjectVisualPreview } from "@/components/project-visual";
 
 function Reveal({
   children,
@@ -129,6 +131,16 @@ export function AboutSection() {
           />
         </Reveal>
         <div className="about-grid">
+          <Reveal className="about-portrait" delay={0.04}>
+            <Image
+              src="/images/herbayu-profile.jpg"
+              alt="Herbayu, Industrial Engineering graduate and technology professional."
+              width={4480}
+              height={6720}
+              sizes="(max-width: 700px) 100vw, (max-width: 900px) 35vw, 22vw"
+              className="about-portrait-image"
+            />
+          </Reveal>
           <Reveal className="about-story">
             <p className="about-lead">{profile.bio}</p>
             <div className="education-note">
@@ -161,15 +173,7 @@ function ProjectCard({ project, index }: { project: (typeof projects)[number]; i
   return (
     <Reveal className="project-card-wrap" delay={(index % 3) * 0.06}>
       <article className="project-card">
-        <div className={`project-art project-art-${index + 1}`} aria-hidden="true">
-          <span className="project-art-label">Project theme</span>
-          <div className="project-art-lines">
-            <span />
-            <span />
-            <span />
-          </div>
-          <span className="project-art-index">0{index + 1}</span>
-        </div>
+        <ProjectVisualPreview visual={project.visuals[0]} name={project.name} />
         <div className="project-card-content">
           <div className="project-meta">
             <span>{project.category}</span>
@@ -325,6 +329,11 @@ export function InnovationLabSection() {
           {visibleEntries.map((entry, index) => (
             <Reveal key={entry.slug} delay={index * 0.05}>
               <article className="lab-card">
+                <ProjectVisualPreview
+                  visual={entry.visual}
+                  name={entry.title}
+                  className="lab-visual"
+                />
                 <div className="lab-card-top">
                   <span className="eyebrow">{entry.category}</span>
                   <span className="status-label">{entry.status}</span>

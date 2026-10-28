@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <title>Illustrative procurement monitoring dashboard concept</title>
+  <rect width="1600" height="1000" fill="#F1EDE5"/>
+  <rect x="104" y="100" width="1392" height="800" rx="12" fill="#F9F7F2" stroke="#D5CCBE" stroke-width="3"/>
+  <path d="M104 206H1496" stroke="#D5CCBE" stroke-width="3"/>
+  <circle cx="158" cy="153" r="9" fill="#CCB994"/><circle cx="190" cy="153" r="9" fill="#DDD2C2"/><circle cx="222" cy="153" r="9" fill="#E7E1D8"/>
+  <path d="M282 154H578" stroke="#C9BEAD" stroke-width="8" stroke-linecap="round"/>
+  <rect x="152" y="248" width="265" height="118" rx="8" fill="#F0EBE1" stroke="#DDD3C3" stroke-width="2"/>
+  <rect x="442" y="248" width="265" height="118" rx="8" fill="#F0EBE1" stroke="#DDD3C3" stroke-width="2"/>
+  <rect x="732" y="248" width="265" height="118" rx="8" fill="#F0EBE1" stroke="#DDD3C3" stroke-width="2"/>
+  <rect x="1022" y="248" width="265" height="118" rx="8" fill="#F0EBE1" stroke="#DDD3C3" stroke-width="2"/>
+  <path d="M180 281H298M180 320H257M470 281H588M470 320H548M760 281H878M760 320H839M1050 281H1168M1050 320H1128" stroke="#B3A58F" stroke-width="8" stroke-linecap="round"/>
+  <rect x="152" y="399" width="866" height="425" rx="8" fill="#F7F4EE" stroke="#DDD3C3" stroke-width="2"/>
+  <path d="M152 469H1018M152 540H1018M152 611H1018M152 682H1018M152 753H1018" stroke="#E1D9CD" stroke-width="2"/>
+  <path d="M207 435H411M472 435H625M687 435H832M894 435H964" stroke="#AFA18D" stroke-width="7" stroke-linecap="round"/>
+  <path d="M208 503H369M472 503H586M687 503H808M894 503H956M208 574H361M472 574H618M687 574H818M894 574H956M208 645H381M472 645H610M687 645H832M894 645H956M208 716H354M472 716H612M687 716H817M894 716H956M208 787H374M472 787H623M687 787H807M894 787H956" stroke="#C9BFAF" stroke-width="6" stroke-linecap="round"/>
+  <rect x="1046" y="399" width="242" height="425" rx="8" fill="#EFEAE0" stroke="#DDD3C3" stroke-width="2"/>
+  <circle cx="1167" cy="554" r="78" stroke="#DED4C4" stroke-width="24"/>
+  <path d="M1167 476A78 78 0 0 1 1240 581" stroke="#AE9774" stroke-width="24" stroke-linecap="round"/>
+  <path d="M1090 700H1244M1090 737H1202M1090 774H1224" stroke="#BEB19C" stroke-width="7" stroke-linecap="round"/>
+  <text x="152" y="866" fill="#95846B" font-family="Arial,sans-serif" font-size="19" letter-spacing="5">ILLUSTRATIVE CONCEPT — NO OPERATIONAL DATA</text>
+</svg>

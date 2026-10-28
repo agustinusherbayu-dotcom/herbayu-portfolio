@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <title>Illustrative personal finance application concept</title>
+  <rect width="1600" height="1000" fill="#F1EDE5"/>
+  <rect x="144" y="120" width="1312" height="760" rx="14" fill="#F9F7F2" stroke="#D5CCBE" stroke-width="3"/>
+  <path d="M144 226H1456" stroke="#DED7CC" stroke-width="3"/>
+  <circle cx="206" cy="174" r="23" fill="#E5DCCB" stroke="#C5B291" stroke-width="2"/>
+  <path d="M194 174H218M206 162V186" stroke="#937D5E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M258 171H506M258 193H418" stroke="#B7AA96" stroke-width="7" stroke-linecap="round"/>
+  <rect x="202" y="280" width="386" height="220" rx="10" fill="#EEE9DF" stroke="#D9CEBE" stroke-width="2"/>
+  <text x="238" y="332" fill="#927D60" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">SAVING GOAL / CONCEPT</text>
+  <circle cx="394" cy="408" r="53" stroke="#D4C9B8" stroke-width="14"/>
+  <path d="M394 355A53 53 0 0 1 440 382" stroke="#AE9672" stroke-width="14" stroke-linecap="round"/>
+  <path d="M282 466H500" stroke="#C4B8A7" stroke-width="6" stroke-linecap="round"/>
+  <rect x="626" y="280" width="762" height="220" rx="10" fill="#F5F1E9" stroke="#DED6C9" stroke-width="2"/>
+  <text x="670" y="332" fill="#927D60" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">EXPENSE OVERVIEW / CONCEPT</text>
+  <path d="M700 438V398M802 438V371M904 438V411M1006 438V350M1108 438V389M1210 438V366M1312 438V403" stroke="#B4A184" stroke-width="22" stroke-linecap="round"/>
+  <path d="M676 453H1344" stroke="#D5CCBE" stroke-width="3"/>
+  <rect x="202" y="540" width="1186" height="270" rx="10" fill="#F7F4EE" stroke="#DED6C9" stroke-width="2"/>
+  <text x="244" y="597" fill="#927D60" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">INSTALLMENT PLANNING / CONCEPT</text>
+  <path d="M254 657H550M254 713H468M635 657H911M635 713H850M996 657H1296M996 713H1224" stroke="#C0B5A5" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="573" cy="657" r="12" fill="#CFBEA3"/><circle cx="937" cy="657" r="12" fill="#CFBEA3"/><circle cx="1320" cy="657" r="12" fill="#CFBEA3"/>
+  <path d="M254 766H1340" stroke="#E1D9CD" stroke-width="2"/>
+  <text x="202" y="850" fill="#95846B" font-family="Arial,sans-serif" font-size="19" letter-spacing="5">ILLUSTRATIVE CONCEPT — NO PERSONAL FINANCIAL DATA</text>
+</svg>

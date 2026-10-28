@@ -437,8 +437,27 @@ summary:focus-visible {
 
 .about-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.75fr);
-  gap: clamp(2rem, 6vw, 5rem);
+  grid-template-columns: minmax(190px, 0.7fr) minmax(0, 1fr) minmax(300px, 0.85fr);
+  align-items: stretch;
+  gap: clamp(1.5rem, 4vw, 3rem);
+}
+
+.about-portrait {
+  position: relative;
+  align-self: start;
+  overflow: hidden;
+  border: 1px solid #c7b38f;
+  padding: 0.35rem;
+  background: var(--paper);
+}
+
+.about-portrait-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center 28%;
 }
 
 .about-story {
@@ -571,105 +590,40 @@ summary:focus-visible {
   box-shadow: 0 14px 32px rgb(52 54 51 / 6%);
 }
 
-.project-art {
+.project-visual {
   position: relative;
-  display: flex;
-  min-height: 180px;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
+  aspect-ratio: 8 / 5;
   border-bottom: 1px solid var(--line);
-  background-color: #efebe3;
-  background-image:
-    linear-gradient(rgb(184 169 154 / 18%) 1px, transparent 1px),
-    linear-gradient(90deg, rgb(184 169 154 / 18%) 1px, transparent 1px);
-  background-size: 24px 24px;
+  background: #efebe3;
 }
 
-.project-art::before,
-.project-art::after {
+.project-visual-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 450ms cubic-bezier(0.2, 0.65, 0.3, 1);
+}
+
+.project-card:hover .project-visual-image,
+.lab-card:hover .project-visual-image {
+  transform: scale(1.025);
+}
+
+.project-visual-caption {
   position: absolute;
-  width: 138px;
-  height: 138px;
-  border: 1px solid rgb(141 117 84 / 65%);
-  content: "";
-}
-
-.project-art::before {
-  transform: rotate(45deg);
-}
-
-.project-art::after {
-  width: 98px;
-  height: 98px;
-  border-color: rgb(141 117 84 / 42%);
-  border-radius: 50%;
-}
-
-.project-art-2::before {
-  width: 180px;
-  height: 92px;
-  transform: rotate(-18deg);
-}
-
-.project-art-3::after,
-.project-art-5::after {
-  width: 120px;
-  height: 120px;
-  border-radius: 0;
-  transform: rotate(45deg);
-}
-
-.project-art-4::before {
-  width: 105px;
-  height: 105px;
-  border-radius: 50%;
-  transform: none;
-}
-
-.project-art-6::before {
-  width: 150px;
-  height: 92px;
-  transform: none;
-}
-
-.project-art-label,
-.project-art-index {
-  position: absolute;
-  z-index: 1;
+  right: 0.65rem;
+  bottom: 0.65rem;
+  max-width: calc(100% - 1.3rem);
+  border: 1px solid rgb(189 170 141 / 65%);
+  padding: 0.4rem 0.55rem;
+  background: rgb(248 246 241 / 92%);
   color: #78684f;
-  font-size: 0.53rem;
-  letter-spacing: 0.14em;
+  font-size: 0.49rem;
+  letter-spacing: 0.07em;
+  line-height: 1.5;
   text-transform: uppercase;
-}
-
-.project-art-label {
-  top: 1rem;
-  left: 1rem;
-}
-
-.project-art-index {
-  right: 1rem;
-  bottom: 0.85rem;
-}
-
-.project-art-lines {
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  gap: 0.25rem;
-  align-items: center;
-  transform: rotate(-30deg);
-}
-
-.project-art-lines span {
-  width: 34px;
-  height: 1px;
-  background: #8d7554;
-}
-
-.project-art-lines span:nth-child(2) {
-  width: 18px;
 }
 
 .project-card-content {
@@ -879,6 +833,16 @@ summary:focus-visible {
   border: 1px solid var(--line);
   padding: 1.25rem;
   background: var(--bg);
+  transition: border-color 180ms ease, transform 180ms ease;
+}
+
+.lab-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--line-dark);
+}
+
+.lab-visual {
+  margin: -1.25rem -1.25rem 1.25rem;
 }
 
 .lab-card h3 {
@@ -1117,6 +1081,11 @@ summary:focus-visible {
   line-height: 1.85;
 }
 
+.case-study-visual {
+  margin-top: 2rem;
+  aspect-ratio: 16 / 8;
+}
+
 .case-study-copy {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1203,6 +1172,14 @@ summary:focus-visible {
   .skills-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
+  .about-grid {
+    grid-template-columns: minmax(180px, 0.65fr) minmax(0, 1.35fr);
+  }
+
+  .profile-panel {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (max-width: 700px) {
@@ -1284,6 +1261,10 @@ summary:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .profile-panel {
+    grid-column: auto;
+  }
+
   .about-story {
     min-height: 0;
     gap: 2rem;
@@ -1361,10 +1342,6 @@ summary:focus-visible {
   .project-grid,
   .lab-grid {
     grid-template-columns: 1fr;
-  }
-
-  .project-art {
-    min-height: 165px;
   }
 
   .timeline-entry {

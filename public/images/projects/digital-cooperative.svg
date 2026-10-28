@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <title>Illustrative cooperative administration and records concept</title>
+  <rect width="1600" height="1000" fill="#F1EDE5"/>
+  <rect x="120" y="112" width="1360" height="776" rx="10" fill="#F9F7F2" stroke="#D5CCBE" stroke-width="3"/>
+  <rect x="120" y="112" width="266" height="776" rx="10" fill="#EBE5DA"/>
+  <path d="M386 112V888" stroke="#D5CCBE" stroke-width="3"/>
+  <circle cx="190" cy="192" r="30" fill="#D6C8B2"/><path d="M177 195h26m-13-13v26" stroke="#8F7959" stroke-width="4" stroke-linecap="round"/>
+  <path d="M238 184H333M238 205H313" stroke="#9D8D77" stroke-width="7" stroke-linecap="round"/>
+  <rect x="158" y="268" width="188" height="54" rx="6" fill="#E1D7C8"/>
+  <path d="M181 295H319" stroke="#A48E6C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M181 371H320M181 429H302M181 487H320M181 545H286M181 603H320M181 661H302" stroke="#B8AA96" stroke-width="7" stroke-linecap="round"/>
+  <path d="M456 199H816" stroke="#B6A58A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M456 235H705" stroke="#D1C6B5" stroke-width="7" stroke-linecap="round"/>
+  <rect x="456" y="298" width="920" height="500" rx="8" fill="#F7F4EE" stroke="#DED6C9" stroke-width="2"/>
+  <path d="M456 378H1376M456 463H1376M456 548H1376M456 633H1376M456 718H1376" stroke="#E2DBD0" stroke-width="2"/>
+  <path d="M544 338H720M800 338H951M1040 338H1203M1268 338H1333" stroke="#AFA18D" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="500" cy="420" r="14" fill="#D7C9B3"/><circle cx="500" cy="505" r="14" fill="#D7C9B3"/><circle cx="500" cy="590" r="14" fill="#D7C9B3"/><circle cx="500" cy="675" r="14" fill="#D7C9B3"/><circle cx="500" cy="760" r="14" fill="#D7C9B3"/>
+  <path d="M544 420H740M800 420H950M1040 420H1177M1268 420H1328M544 505H706M800 505H964M1040 505H1196M1268 505H1328M544 590H730M800 590H932M1040 590H1190M1268 590H1328M544 675H718M800 675H960M1040 675H1184M1268 675H1328M544 760H727M800 760H950M1040 760H1190M1268 760H1328" stroke="#C5BBAA" stroke-width="7" stroke-linecap="round"/>
+  <text x="456" y="850" fill="#95846B" font-family="Arial,sans-serif" font-size="19" letter-spacing="5">ILLUSTRATIVE CONCEPT — NO MEMBER RECORDS</text>
+</svg>

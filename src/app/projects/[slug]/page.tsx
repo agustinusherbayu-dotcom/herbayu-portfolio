@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import { projects } from "@/data/projects";
+import { ProjectVisualPreview } from "@/components/project-visual";
 
 export function generateStaticParams() {
   return projects.map((project) => ({ slug: project.slug }));
@@ -61,16 +62,39 @@ async function ProjectDetails({
           <p>{project.description}</p>
           <p className="status-label">{project.status}</p>
         </header>
+        {project.visuals[0] && (
+          <ProjectVisualPreview
+            visual={project.visuals[0]}
+            name={project.name}
+            className="case-study-visual"
+          />
+        )}
         <div className="case-study-copy">
           <section>
-            <h2>Project theme</h2>
+            <h2>Overview</h2>
             <p>{project.shortDescription}</p>
+          </section>
+          <section>
+            <h2>Objectives</h2>
+            <p>
+              {project.objectives?.length
+                ? project.objectives.join(" ")
+                : "Project objectives have not been provided for publication."}
+            </p>
           </section>
           <section>
             <h2>Contribution</h2>
             <p>
               {project.contribution ||
                 "Specific contribution details have not been supplied for publication."}
+            </p>
+          </section>
+          <section>
+            <h2>Technical approach</h2>
+            <p>
+                {project.technicalApproach?.length
+                  ? project.technicalApproach.join(" ")
+                  : "Technical approach details have not been provided for publication."}
             </p>
           </section>
         </div>
@@ -81,11 +105,24 @@ async function ProjectDetails({
           </section>
         )}
         <section className="case-study-note">
-          <h2>Evidence and next details</h2>
+          <h2>Lessons learned and next steps</h2>
           <p>
-            The project status, screenshots, and additional verified details are to be confirmed. No live demo or production integration is provided on this portfolio.
+            {project.nextSteps?.length
+              ? project.nextSteps.join(" ")
+              : "Lessons learned and next steps have not been provided for publication. Original project images and further verified details are still needed."}
           </p>
         </section>
+        {project.links?.map((link) => (
+          <a
+            key={`${link.kind}-${link.href}`}
+            className="text-link"
+            href={link.href}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {link.label} <ArrowUpRight size={15} aria-hidden="true" />
+          </a>
+        ))}
         <Link href="/#contact" className="text-link">
           Discuss a collaboration <ArrowUpRight size={15} aria-hidden="true" />
         </Link>

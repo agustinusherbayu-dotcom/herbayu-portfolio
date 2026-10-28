@@ -11,6 +11,18 @@ export type ProjectStatus =
   | "Prototype"
   | "Completed";
 
+export type ProjectVisual = {
+  src: string;
+  alt: string;
+  kind: "illustration" | "screenshot" | "photograph" | "technical drawing";
+};
+
+export type ProjectLink = {
+  label: string;
+  href: string;
+  kind: "github" | "demo" | "video" | "documentation";
+};
+
 export type Project = {
   slug: string;
   name: string;
@@ -20,6 +32,11 @@ export type Project = {
   description: string;
   contribution: string;
   tools: string[];
+  visuals: ProjectVisual[];
+  objectives?: string[];
+  technicalApproach?: string[];
+  nextSteps?: string[];
+  links?: ProjectLink[];
 };
 
 export type LabEntry = {
@@ -29,6 +46,7 @@ export type LabEntry = {
   status: "Concept" | "In Development" | "Prototype" | "Completed";
   summary: string;
   tags: string[];
+  visual: ProjectVisual;
   githubUrl?: string;
   demoUrl?: string;
   docsUrl?: string;

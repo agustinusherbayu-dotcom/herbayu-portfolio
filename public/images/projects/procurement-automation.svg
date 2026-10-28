@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <title>Illustrative procurement automation concept</title>
+  <rect width="1600" height="1000" fill="#F1EDE5"/>
+  <path d="M0 200H1600M0 400H1600M0 600H1600M0 800H1600M200 0V1000M400 0V1000M600 0V1000M800 0V1000M1000 0V1000M1200 0V1000M1400 0V1000" stroke="#DED7CC" stroke-width="2" opacity=".65"/>
+  <rect x="124" y="115" width="1352" height="770" rx="8" fill="#F8F6F1" stroke="#D8CFC0" stroke-width="3"/>
+  <text x="176" y="186" fill="#8A765B" font-family="Arial,sans-serif" font-size="24" letter-spacing="7">PROCESS STUDY / 01</text>
+  <path d="M333 502H493M653 502H813M973 502H1133" stroke="#A18B6B" stroke-width="5" stroke-dasharray="12 14"/>
+  <path d="m477 484 18 18-18 18m160-36 18 18-18 18m160-36 18 18-18 18m160-36 18 18-18 18" stroke="#A18B6B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="194" y="408" width="140" height="188" rx="8" fill="#EFE7D9" stroke="#BDAA8D" stroke-width="4"/>
+  <circle cx="264" cy="475" r="20" stroke="#927B5C" stroke-width="4"/>
+  <path d="M231 525H297M231 550H281" stroke="#B3A58F" stroke-width="5" stroke-linecap="round"/>
+  <rect x="514" y="408" width="140" height="188" rx="8" fill="#F6F3ED" stroke="#BDAA8D" stroke-width="4"/>
+  <path d="M551 458H617M551 481H617M551 504H595" stroke="#A3947F" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="561" cy="548" r="10" fill="#BDAA8D"/><circle cx="589" cy="548" r="10" fill="#DED4C4"/><circle cx="617" cy="548" r="10" fill="#DED4C4"/>
+  <rect x="834" y="408" width="140" height="188" rx="8" fill="#EEEAE2" stroke="#BDAA8D" stroke-width="4"/>
+  <circle cx="904" cy="478" r="30" stroke="#927B5C" stroke-width="4"/>
+  <path d="m890 478 10 10 20-23M870 535H938M870 557H919" stroke="#927B5C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1154" y="408" width="140" height="188" rx="8" fill="#F6F3ED" stroke="#BDAA8D" stroke-width="4"/>
+  <path d="M1187 466H1261M1187 491H1243M1187 538H1261M1187 563H1230" stroke="#A3947F" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="1347" cy="502" r="25" fill="#E9E0D2" stroke="#BDAA8D" stroke-width="3"/>
+  <path d="M1347 490V514M1335 502H1359" stroke="#927B5C" stroke-width="4" stroke-linecap="round"/>
+  <text x="176" y="800" fill="#95846B" font-family="Arial,sans-serif" font-size="19" letter-spacing="5">ILLUSTRATIVE CONCEPT — NOT A WORKFLOW SCREENSHOT</text>
+</svg>

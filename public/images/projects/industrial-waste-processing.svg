@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <title>Illustrative industrial material processing concept</title>
+  <rect width="1600" height="1000" fill="#F1EDE5"/>
+  <path d="M0 794H1600" stroke="#D7CEBF" stroke-width="3"/>
+  <path d="M164 220H1436M164 268H1436" stroke="#D9D0C2" stroke-width="2"/>
+  <path d="M252 820V303M1348 820V303" stroke="#D9D0C2" stroke-width="2" stroke-dasharray="10 13"/>
+  <rect x="160" y="140" width="1280" height="730" rx="10" fill="#F8F6F1" fill-opacity=".72" stroke="#D5CCBE" stroke-width="3"/>
+  <path d="M226 747H1374" stroke="#BDAF9A" stroke-width="9" stroke-linecap="round"/>
+  <path d="M266 747V791M1333 747V791" stroke="#A9977D" stroke-width="8"/>
+  <rect x="326" y="454" width="212" height="220" rx="8" fill="#EAE4D9" stroke="#AD9A7D" stroke-width="5"/>
+  <path d="M350 432H514L500 454H364L350 432Z" fill="#DED4C5" stroke="#AD9A7D" stroke-width="4"/>
+  <path d="M356 516H508M356 551H508M356 586H508" stroke="#C2B49E" stroke-width="6"/>
+  <path d="M538 560H640" stroke="#A18C6B" stroke-width="7" stroke-dasharray="12 11"/>
+  <rect x="640" y="397" width="300" height="278" rx="12" fill="#F0ECE4" stroke="#AD9A7D" stroke-width="5"/>
+  <path d="M675 397V347H905V397M699 347V326M881 347V326" stroke="#AD9A7D" stroke-width="5"/>
+  <path d="M670 473H910M670 587H910" stroke="#C5B8A5" stroke-width="5"/>
+  <path d="M711 674V714M869 674V714M679 714H901" stroke="#AD9A7D" stroke-width="7"/>
+  <circle cx="790" cy="528" r="49" stroke="#B9A78C" stroke-width="7"/>
+  <path d="M790 499V528L811 543" stroke="#927B5C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M940 560H1042" stroke="#A18C6B" stroke-width="7" stroke-dasharray="12 11"/>
+  <rect x="1042" y="460" width="184" height="214" rx="8" fill="#EAE4D9" stroke="#AD9A7D" stroke-width="5"/>
+  <path d="M1062 526H1206M1062 561H1206M1062 596H1206" stroke="#C2B49E" stroke-width="6"/>
+  <path d="M1226 560H1280" stroke="#A18C6B" stroke-width="7" stroke-dasharray="12 11"/>
+  <path d="M1296 480 1348 510V610L1296 640 1244 610V510L1296 480Z" fill="#E4D9C7" stroke="#A9977D" stroke-width="5"/>
+  <path d="M1296 481V540M1245 510 1296 540 1347 510M1296 540V638" stroke="#B5A287" stroke-width="4"/>
+  <text x="220" y="824" fill="#95846B" font-family="Arial,sans-serif" font-size="19" letter-spacing="5">ILLUSTRATIVE PROCESS STUDY — NOT EQUIPMENT OR TEST RESULTS</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <title>Illustrative industrial facility and equipment planning drawing</title>
+  <rect width="1600" height="1000" fill="#F1EDE5"/>
+  <rect x="116" y="108" width="1368" height="784" rx="8" fill="#F9F7F2" stroke="#D5CCBE" stroke-width="3"/>
+  <path d="M176 175H1424M176 827H1424" stroke="#D8CFC1" stroke-width="2"/>
+  <path d="M210 238H1390V763H210V238Z" stroke="#A99677" stroke-width="5"/>
+  <path d="M210 590H1390M592 238V590M944 238V590M1166 590V763" stroke="#BAAA91" stroke-width="4"/>
+  <path d="M260 290H540V500H260V290ZM650 290H880V500H650V290ZM1000 290H1340V500H1000V290Z" stroke="#C6B8A2" stroke-width="4"/>
+  <path d="M292 329H506V461H292V329ZM683 329H846V461H683V329ZM1034 329H1306V461H1034V329Z" stroke="#D3C7B5" stroke-width="3" stroke-dasharray="10 9"/>
+  <circle cx="397" cy="394" r="43" stroke="#AD9A7D" stroke-width="4"/><path d="M354 394H440M397 351V437" stroke="#AD9A7D" stroke-width="3"/>
+  <circle cx="764" cy="394" r="48" stroke="#AD9A7D" stroke-width="4"/><path d="M716 394H812M764 346V442" stroke="#AD9A7D" stroke-width="3"/>
+  <path d="M1050 464V355Q1050 337 1068 337H1272Q1290 337 1290 355V464" stroke="#AD9A7D" stroke-width="4"/>
+  <path d="M1080 464V413Q1080 395 1098 395H1242Q1260 395 1260 413V464M1098 413H1242" stroke="#C2B49D" stroke-width="4"/>
+  <path d="M236 650H488M236 681H419M236 712H458" stroke="#C7BBA9" stroke-width="5" stroke-linecap="round"/>
+  <path d="M632 650H894M632 681H834M632 712H872" stroke="#C7BBA9" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1220 640V735M1256 640V735M1292 640V735M1328 640V735" stroke="#B29F81" stroke-width="12"/>
+  <path d="M1210 735H1340" stroke="#B29F81" stroke-width="5"/>
+  <path d="M210 206V228M1390 206V228M210 218H1390" stroke="#9E8968" stroke-width="3"/>
+  <path d="m226 210-16 8 16 8m1148-16 16 8-16 8" stroke="#9E8968" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M178 238H198M178 763H198M188 238V763" stroke="#9E8968" stroke-width="3"/>
+  <path d="m180 254 8-16 8 16m-16 493 8 16 8-16" stroke="#9E8968" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="180" y="153" fill="#95846B" font-family="Arial,sans-serif" font-size="18" letter-spacing="5">PLANNING STUDY / NOT TO SCALE</text>
+  <text x="850" y="866" fill="#95846B" font-family="Arial,sans-serif" font-size="19" letter-spacing="5">ILLUSTRATIVE CONCEPT — NOT AN ORIGINAL CAD DRAWING</text>
+</svg>
